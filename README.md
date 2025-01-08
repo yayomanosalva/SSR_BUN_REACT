@@ -1,2 +1,15 @@
-# SSR_BUN_REACT
-Herramienta para correr react en el entorno Bun, con el fin de ser mucho más rápido trabaja con Hydratación Progresiva: Implementa React Server Components (RSC) para mezclar SSR /SSG con CSR según lo necesites.
+# admin_bidilink
+
+To install dependencies:
+
+```bash
+bun install
+```
+
+To run:
+
+```bash
+bun run server.ts
+```
+
+This project was created using `bun init` in bun v1.1.30. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

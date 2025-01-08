@@ -1,0 +1,7 @@
+[scripts]
+start = "bun run build && bun run dev"
+dev = "bun --watch src/server.ts"
+build = "bun build ./src/main.tsx --outdir ./dist"
+hot = "bun run --hot src/server.ts"
+lint = "bun eslint ."
+prod = "bun run dist/main.js"
